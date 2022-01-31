@@ -1,0 +1,13 @@
+// BIT PRERQUISITES FOR TRIE
+
+// XOR PROPERTIES
+
+ 1 ^ 0 = 1
+ 0 ^ 1 = 1
+ 1 ^ 1 = 0
+ 0 ^ 0 = 0
+ 
+ // SOME GENERAL PROPERTIES
+ 
+1) To get ith bit of number 'n', do ( n >> i )
+2) To set ith bit of number 'n', do ( n | (1 << i) )
